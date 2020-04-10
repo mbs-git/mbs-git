@@ -1,5 +1,6 @@
 ---
 - name: 'Windows Updates Playbook'
+  hosts: all
   gather_facts: false
   tasks:
     - name: rolling Windows Updates
